@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Landig Page</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="image-container">
+        <img
+          src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png"
+          alt="Company Logo"
+          id="header-img"
+        />
+      </div>
+      <nav id="nav-bar">
+        <ul>
+          <li><a href="#nav-bar" class="nav-link">top</a></li>
+          <li><a href="#video" class="nav-link">video</a></li>
+          <li><a href="#form" class="nav-link">form</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/y8Yv4pnO7qc"
+        title="Roman Carnival Overture Op. 9 for Five Trombones"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+        id="video"
+      ></iframe>
+      <form
+        method="post"
+        action="https://www.freecodecamp.com/email-submit"
+        id="form"
+      >
+        <fieldset>
+          <label for="email"
+            >Enter your email for more details:
+            <input
+              type="email"
+              name="email"
+              id="email"
+              required
+              placeholder="Email"
+            />
+          </label>
+        </fieldset>
+        <input type="submit" name="submit" id="submit" value="Submit" />
+      </form>
+    </section>
+  </body>
+</html>
